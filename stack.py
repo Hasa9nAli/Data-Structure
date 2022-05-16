@@ -57,25 +57,7 @@ stac1.push(arg1+arg2)
 '''
 
 '''
-class Stack_Class:
-    def __init__(self,size):
-        self.stack=[]
-        self.size=size
 
-    def push(self,item):
-        if len(self.stack)==self.size:
-            print("Stack is full!!")
-        else:
-            self.stack.append(item)
-
-    def pop(self):
-        if self.stack == []:
-            print("Stack is empty!")
-            result = -1
-        else:
-
-            result = self.stack.pop()
-            return result
 
 
 stac1=Stack_Class(4)
@@ -107,38 +89,6 @@ print(stac1.stack)
 
 
 
-# class Stack_class:
-#     def __init__(self, size):
-#         self.stack = []
-#         self.size = size
-
-#     def push(self, item):
-#         if len(self.stack) == self.size:
-#             print("The Stack is full")
-#         else:
-#             self.stack.append(item)
-
-#     def pop(self):
-#         if self.stack == []:
-#             print("The Stack is empty ")
-#         else:
-#             return self.stack.pop()
-
-#     def display(self):
-#         if self.stack == []:
-#             print("The Stack is empty ")
-#         else:
-#             print("element of stack is:")
-#             for item in reversed(self.stack):
-#                 print(item)
-
-
-# s=Stack_class(2)
-# s.push(1)
-# s.push(2)
-# s.push(3)
-# s.display()
-
 
 '''
 #56*822^/+
@@ -166,26 +116,6 @@ stac1.push(arg1+arg2)
 '''
 
 '''
-class Stack_Class:
-    def __init__(self,size):
-        self.stack=[]
-        self.size=size
-
-    def push(self,item):
-        if len(self.stack)==self.size:
-            print("Stack is full!!")
-        else:
-            self.stack.append(item)
-
-    def pop(self):
-        if self.stack == []:
-            print("Stack is empty!")
-            result = -1
-        else:
-
-            result = self.stack.pop()
-            return result
-
 
 stac1=Stack_Class(4)
 #56*822^/+
