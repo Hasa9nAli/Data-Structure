@@ -74,6 +74,7 @@ class DoubleLinkedList:
 
 
 firstLinked = DoubleLinkedList()
+""" you can use input int data type """
 firstLinked.insertAtBegin(20)
 firstLinked.insertAtBegin(10)
 firstLinked.insertAtBegin(30)
