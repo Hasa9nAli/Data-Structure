@@ -1,5 +1,5 @@
 """this program written by Hasan Ali
-to contact with me please send the message to this email --> hasanalihasan05@gmail.com
+to contact with me please send the message to this email --> ihasanalihasan@gmail.com
 """
 class Node:
     def __init__(self,data): 
